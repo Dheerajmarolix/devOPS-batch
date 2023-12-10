@@ -1,0 +1,2 @@
+What is the syntax of if formula in Salesforce?
+The IF() function is categorized under the Logical function and the syntax for this formula is IF(logical_test, value_if_true, value_if_false). This function checks whether a condition returns true.
