@@ -1,0 +1,6 @@
+Levels of syntax
+Computer language syntax is generally distinguished into three levels:
+
+Words – the lexical level, determining how characters form tokens;
+Phrases – the grammar level, narrowly speaking, determining how tokens form phrases;
+Context – determining what objects or variables names refer to, if types are valid, etc.
