@@ -1,0 +1,6 @@
+Create a new Jenkins job: Start by creating a new Jenkins job that will be used to perform the Git repository migration.
+Set up the Git plugin: In the Jenkins job configuration, under the "Source Code Management" section, select "Git" and set up the plugin with the appropriate repository URL and credentials.
+Checkout the source repository: In the "Build" section of the Jenkins job configuration, add a "Git" step to checkout the source repository.
+Push to the destination repository: Add another "Git" step to push the source repository to the destination repository. Make sure to specify the URL and credentials for the destination repository.
+Run the Jenkins job: Finally, run the Jenkins job to perform the Git repository migration.end
+

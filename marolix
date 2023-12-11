@@ -1,0 +1,15 @@
+Here’s an example:
+
+#include <iostream>
+int main() {
+    int number = 10;
+    // Reference variable
+    int& ref = number;
+    std::cout << "Number: " << number << std::endl;  // Output: Number: 10
+    std::cout << "Reference: " << ref << std::endl;  // Output: Reference: 10
+    // Modifying the reference will modify the original variable
+    ref = 20;
+    std::cout << "Number: " << number << std::endl;  // Output: Number: 20
+    std::cout << "Reference: " << ref << std::endl;  // Output: Reference: 20
+    return 0;
+}
